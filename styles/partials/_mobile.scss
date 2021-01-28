@@ -1,0 +1,107 @@
+    h1 {
+        font-size: xx-large;
+    }
+    
+    h2 {
+        font-size: larger;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    p {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .body {
+        margin: 0 15px 0 15px;
+    }
+    /* Estilos Header*/
+    
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+        img {
+            height: 70px;
+        }
+        h1 {
+            display: inline-block;
+            width: auto;
+        }
+    }
+    
+    main {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        .lista {
+            display: none;
+        }
+        .article {
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            h2,
+            i {
+                align-self: center;
+                text-align: center;
+            }
+            i {
+                margin-bottom: 10px;
+            }
+            h2 {
+                font-size: 23px;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+            p {
+                text-align: justify;
+            }
+            h3 {
+                font-size: large;
+                align-self: flex-end;
+            }
+            .pie-noticia {
+                align-self: flex-end;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            .redes {
+                text-transform: none;
+            }
+            .pie-foto {
+                font-size: medium;
+                align-self: flex-end;
+            }
+        }
+        .aside {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            margin-bottom: 10px;
+            .adsbygoogle {
+                display: inline-block;
+                border: 1px solid black;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
